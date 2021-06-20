@@ -1,0 +1,808 @@
+html{
+	
+	font-size:62.5%;
+	
+}
+
+body{
+
+	background-color: black;
+	font-family:helvetica, sans-serif;
+	color: white;
+
+}
+
+#header{
+	
+	font-size:8rem;
+	position: absolute;
+	left:78rem;
+	
+}
+
+#outline{
+	
+	border-style:solid;
+	border-width:0.1rem;
+	border-radius:3rem;
+	position: absolute;
+	top:20rem;
+	left:57rem;
+	padding-top:75rem;
+	padding-left:75rem;
+}
+
+#output{
+	
+	font-size:8rem;
+	position:absolute;
+	top:25rem;
+	left:20rem;
+	padding:4rem;
+	padding-left:50rem;
+	margin:0rem;
+}
+
+#potrait:hover{
+	
+	background-color:black;
+	color:white;
+}
+
+
+#ac_btn{
+	font-size:4rem;
+	position:absolute;
+	left:70rem;
+	top:40rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:darkgray;
+	color:black;
+	width:5rem;
+	height:5rem;
+	
+	cursor:pointer;
+}
+
+#ac_font{
+	position:absolute;
+	top:2.2rem;
+	left:1.7rem;
+	cursor:pointer;
+}
+
+#ac_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#ac_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#add_or_subtract_btn{
+	font-size:4rem;
+	position:absolute;
+	left:85rem;
+	top:40rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:darkgray;
+	color:black;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#add_or_subtract_font{
+	
+	position:absolute;
+	top:2.2rem;
+	left:1.9rem;
+	cursor:pointer;
+	
+}
+
+#add_or_subtract_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#add_or_subtract_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#percentage_btn{
+	
+	font-size:4rem;
+	position:absolute;
+	left:100rem;
+	top:40rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:darkgray;
+	color:black;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#percentage_font{
+	
+	font-size:5rem;
+	position:absolute;
+	top:1.6rem;
+	left:2.4rem;
+	cursor:pointer;
+	
+}
+
+#percentage_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#percentage_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#division_btn{
+	
+	font-size:6rem;
+	position:absolute;
+	left:115rem;
+	top:40rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:orange;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#division_font{
+	
+	position:absolute;
+	top:1rem;
+	left:3.5rem;
+	cursor:pointer;
+	
+}
+
+#division_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#division_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#multiply_btn{
+	
+	font-size:6rem;
+	position:absolute;
+	left:115rem;
+	top:50rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:orange;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#multiply_font{
+	
+	position:absolute;
+	top:0.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#multiply_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#multiply_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#add_btn{
+	
+	font-size:6rem;
+	position:absolute;
+	left:115rem;
+	top:70rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:orange;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#add_font{
+	
+	position:absolute;
+	top:1.2rem;
+	left:2.7rem;
+	cursor:pointer;
+	
+}
+
+#add_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#add_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#subtract_btn{
+	
+	font-size:7rem;
+	position:absolute;
+	left:115rem;
+	top:60rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:orange;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#subtract_font{
+	
+	position:absolute;
+	top:0rem;
+	left:3.2rem;
+	cursor:pointer;
+	
+}
+
+#subtract_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#subtract_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#equal_btn{
+	
+	font-size:6rem;
+	position:absolute;
+	left:115rem;
+	top:80rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:orange;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#equal_font{
+	
+	position:absolute;
+	top:1rem;
+	left:2.7rem;
+	cursor:pointer;
+	
+}
+
+#equal_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#equal_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#decimal_point_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:100rem;
+	top:80rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:orange;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#decimal_point_font{
+	
+	position:absolute;
+	top:1rem;
+	left:3.7rem;
+	cursor:pointer;
+	
+}
+
+#decimal_point_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#decimal_point_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no1_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:70rem;
+	top:70rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no1_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no1_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no1_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no2_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:85rem;
+	top:70rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no2_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no2_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no2_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no3_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:100rem;
+	top:70rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no3_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no3_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no3_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no4_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:70rem;
+	top:60rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no4_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no4_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no4_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no5_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:85rem;
+	top:60rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no5_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no5_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no5_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no6_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:100rem;
+	top:60rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no6_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no6_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no6_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no7_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:70rem;
+	top:50rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no7_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no7_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no7_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no8_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:85rem;
+	top:50rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no8_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no8_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no8_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no9_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:100rem;
+	top:50rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no9_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no9_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no9_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#no0_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:70rem;
+	top:80rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#no0_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#no0_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#no0_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
+
+#backspace_btn{
+	
+	font-size:5rem;
+	position:absolute;
+	left:85rem;
+	top:80rem;
+	
+	border-style:none;
+	border-radius:10rem;
+	padding:2rem;
+	background-color:dimgray;
+	color:white;
+	width:5rem;
+	height:5rem;
+	cursor:pointer;
+	
+}
+
+#backspace_font{
+	
+	position:absolute;
+	top:1.5rem;
+	left:3rem;
+	cursor:pointer;
+	
+}
+
+#backspace_btn:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+}
+
+#backspace_font:hover {
+	color:limegreen;
+	transition: 0.1s ease-in-out;
+	
+}
