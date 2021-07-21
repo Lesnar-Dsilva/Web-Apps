@@ -1,6 +1,6 @@
 # Web-Apps
 
-This is my second project, which is a stopwatch
+This is my first project, which is a stopwatch
 
 It's functionality is limited as I wasnt able to figure out how to stop and resume the time without overwriting the current time.
 
