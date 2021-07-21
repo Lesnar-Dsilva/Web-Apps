@@ -12,4 +12,4 @@ As a stopwatch runs through the time, it requires to be reset to 0 to stop the t
 
 Finally, the lap button is self explanatory as it records the current time at which the button was clicked, the maximum capacity is 15 otherwise it overflows outside the browser window, and if this limit is reached then it notifys the user that the maximum capacity has been reached.
 
-This was second project required a lot more code to be written to be functional to my standards, but my knowledge of JavaScript is still growing, this project took me a total of 8 hours to complete.
+This as my first project required a lot more code to be written to be functional to my standards, but my knowledge of JavaScript is still growing, this project took me a total of 8 hours to complete.
