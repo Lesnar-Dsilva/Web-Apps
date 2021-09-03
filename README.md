@@ -9,4 +9,6 @@ I found random quotes across the internet, there are currently only 5 quotes in 
 
 I converted that property value into an array using the split("") method to isolate the quotee from the quote to give them different css properties.
 
+I also used a drop shadow for the background of the quote and quotee.
+
 Thanks for reading!
