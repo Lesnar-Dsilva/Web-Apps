@@ -1,7 +1,7 @@
 # Web-Apps
 These are my projects that involving using HTML 5, CSS 3 and JavaScript
 
-This is my 10th project.
+This is my 7th project.
 
 In this project, I used a conditional (ternary) operator to render the date (Date/Month/Year), this is a simpler way to write if statements, but the drawback is you can't write it without an else statement, the experssion after the colon ":" is only executed, if the former expression is false.
 
