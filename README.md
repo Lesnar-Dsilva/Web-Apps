@@ -1,7 +1,7 @@
 # Web-Apps
 These are my projects that involving using HTML 5, CSS 3 and JavaScript
 
-This is my 13th project.
+This is my 14th project.
 
 This project was by far the toughest, this was inspired by FreeCodeCamps Menu Project. I first created this project using the tutorial, then tried to recreate the  project from memory the main important content wasthe reduce(), filter() and map() methods. These are primarily used to make the page dyanmic, if ever a menu needed to be injected using AJAX I would only have to write a couple lines of code, and this code automactically recognizes if any new categories or menu items are added, and they will be added to the page.
 
