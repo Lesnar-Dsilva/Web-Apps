@@ -14,7 +14,7 @@ I used a variable to store the element that is grabbed by the document.getElemen
       
 I could have declared a new variable and done the same, and with the text I could have:
 
-  if (e.id.includes(id)) {
+      if (e.id.includes(id)) {
         e.classList.add("active");
       }
 
