@@ -3,7 +3,7 @@ These are my projects that involving using HTML 5, CSS 3 and JavaScript
 
 I am ending my JavaScript learning process with something simple and easy to make.
 
-This project took me 2 hours to make, but I did start the project over 3 times, because CSS was the biggest issue to tackle due to arranging the buttons and image slide because the images wont always scale very well to every screen, as I used images with different aspect ratios and resolutions. CSS was difficult, but I did find a way around it using grid and using the vh unit for sizing including rem unit.
+This is my 21st project, it took me 2 hours to make, but I did start the project over 3 times, because CSS was the biggest issue to tackle due to arranging the buttons and image slide because the images wont always scale very well to every screen, as I used images with different aspect ratios and resolutions. CSS was difficult, but I did find a way around it using grid and using the vh unit for sizing including rem unit.
 
 JS was done in 10 minutes because it was simply just a counter, and an array which uses the counter as an index.
 
